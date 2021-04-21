@@ -16,7 +16,7 @@ static uint8_t APP_KEY[] = { 0xBF, 0xC3, 0x23, 0xBA, 0x49, 0x94, 0x30, 0xB3, 0x9
 
 PwmOut speaker(p21);
 InterruptIn btn(p12);
-int remain_seats=1;
+int remain_seats=40;
 
 // The port we're sending and receiving on
 #define MBED_CONF_LORA_APP_PORT     15
